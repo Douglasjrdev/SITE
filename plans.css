@@ -45,7 +45,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    
+}
 .cabeçario{
     
     background:linear-gradient(to right, plum, white);
@@ -90,10 +92,13 @@ a{
 }
 
 
-body{
-    background: url(fotos/plansback.jpeg);
-    background-size: 93vh;
-    background-repeat: no-repeat;
+main{
+    margin-right: 5px;
+    
+   min-height: 900px;
+     background:url(fotos/plansback.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
     
     
 }
@@ -102,7 +107,7 @@ li{
     padding: 5px;
 }
 .card{
-    margin: 100px;
+    margin: 50px;
     border: 4px solid black;
     
     backdrop-filter:blur(2px) ;
